@@ -1,1 +1,46 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=RobotoSlab:wght@400;700&display=swap");
+:root {
+  --primary-color: #D2E3DB;
+  --secondary-color:#076D3A;
+  --accent-color: #00B55A;
+  --white-color:#F6FFFB;
+}
+
+body {
+  background-color: var(--primary-color);
+  margin: 0;
+  font-family: 'RobotoSlab';
+  text-align: center;
+}
+
+.maincontainer {
+  border: 2px var(--secondary-color);
+  margin: 1em;
+  padding: 2em;
+  border: 1px solid var(--secondary-color);
+  border-radius: .4em;
+}
+
+.logincontainer {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 17em;
+  background-color: var(--secondary-color);
+  border: var(--accent-color);
+  margin: auto;
+  border-radius: .4em;
+  margin-top: 1em;
+}
+
+.loginbtn {
+  margin: 1em;
+  color: var(--primary-color);
+  background-color: var(--accent-color);
+  font-size: 1.2em;
+  width: 100px;
+  border-radius: 2em;
+  text-decoration: none;
+  inline-size: bold;
+  padding: 0.2 2em 2em;
+}
+/*# sourceMappingURL=main.css.map */
