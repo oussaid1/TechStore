@@ -1,42 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=RobotoSlab:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;500&display=swap");
+
 :root {
-    --primary-color: #D2E3DB;
-    --secondary-color:#076D3A;
-    --accent-color: #00B55A;
-    --white-color:#F6FFFB;
+  --primary-color: #d2e3db;
+  --secondary-color: #076d3a;
+  --accent-color: #00b55a;
+  --white-color: #f6fffb;
 }
 
 body {
-    background-color: var(--primary-color);
-    margin: 0;
-    font-family: 'RobotoSlab';
-    text-align: center;
-    
+  background-color: var(--primary-color);
+  margin: 0;
+  font-family: "Roboto Slab" serif;
+  text-align: center;
 }
-.maincontainer{
-    border: 2px var(--secondary-color);
-    margin: 1em;
-    padding: 2em;
-    border: 1px solid var(--secondary-color);
-    border-radius: .4em;
+
+.logo-title {
+  color: var(--secondary-color);
+  font-size: 20px;
+  font-family: "Roboto Slab" serif;
 }
-.logincontainer{
-    align-content: center;
-    width: 17em;
-    background-color: var(--secondary-color);
-    border: var(--accent-color);
-    margin: auto;
-    border-radius: .4em;
-    margin-top:1em ;
+.person-icon {
+  padding: 0.4em;
 }
-.loginbtn{
-    margin: 1em;
-    color: var(--primary-color);
-    background-color: var(--accent-color);
-    font-size: 1.2em;
-    width: 100px;
-    border-radius: 2em;
-    text-decoration: none;
-    inline-size: bold;
-    padding: 0.2 2em 2em ;
+.maincontainer {
+  border: 2px var(--secondary-color);
+  margin: 1em;
+  padding: 2em;
+  border: 1px solid var(--secondary-color);
+  border-radius: 0.4em;
+}
+.logincontainer {
+  align-content: center;
+  width: 17em;
+  background-color: var(--secondary-color);
+  border: var(--accent-color);
+  margin: auto;
+  border-radius: 0.4em;
+  margin-top: 1em;
+}
+input[type="submit"] {
+  margin: 1em;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-size: 1.4em;
+  font-family: "Roboto Slab", serif;
+  border: var(--primary-color);
+  border-radius: 2em;
+  text-align: center;
+  inline-size: bold;
+  height: 1.7em;
+  width: 10em;
+  cursor: pointer;
+}
+
+input[type="text"],
+[type="email"],
+[type="password"] {
+  width: 80%;
+  margin: 8px 0;
+  height: 2.4em;
+  display: inline-block;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-image: url("assets/svgs/person.svg");
+  background-position: 5px 6px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  color: var(--secondary-color);
 }

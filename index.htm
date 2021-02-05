@@ -1,33 +1,47 @@
 <!DOCTYPE html>
-<html style="background-color:#D2E3DB;">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html style="background-color: #d2e3db">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TechStore2021</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
+  <body>
     <div class="maincontainer">
-        <a href="#">
-            <img src="assets/svgs/aktech.svg" alt="logo" width="76pix" height="76px" id="logobar">
-        </a><br>
+      <a href="#">
+        <img
+          src="assets/svgs/aktech.svg"
+          alt="logo"
+          width="76pix"
+          height="76px"
+          id="logobar"
+        /> </a
+      ><br />
 
-        <a>Welcome to AkhilaeTec</a>
-        <div class="logincontainer">
-            <div class="person">
-                <img src="assets/svgs/person.svg" alt="logo" width="40pix" height="40px" id="logobar">
-            </div>
-            <form action="#">
-                <label for="uname">username</label><br>
-                <input type="text" id="uname" name="uname"><br>
-                <label for="email">email</label><br>
-                <input type="email" id="email" value="@"><br>
-                <input class="loginbtn" type="submit" value="login">
-            </form>
+      <a class="logo-title">Welcome to AkhilaeTec</a>
+      <div class="logincontainer">
+        <div class="person-icon">
+          <img
+            src="assets/svgs/person.svg"
+            alt="logo"
+            width="60pix"
+            height="60px"
+            id="logobar"
+          />
         </div>
+        <form class="mform" action="#">
+          <input type="text" id="uname" name="uname" placeholder="username" />
+          <input type="email" id="email" value="" placeholder="your@email" />
+          <input
+            type="password"
+            id="password"
+            value=""
+            placeholder="password"
+          />
+          <input type="submit" class="loginbtn" type="submit" value="login" />
+        </form>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
